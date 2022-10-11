@@ -54,6 +54,7 @@ abstract class SingletonTest<S> {
 
   /**
    * The singleton's getInstance method.
+   * Supplier 接口是一个供给型的接口，其实，说白了就是一个容器，可以用来存储数据，然后可以供其他方法使用的这么一个接口
    */
   private final Supplier<S> singletonInstanceMethod;
 
