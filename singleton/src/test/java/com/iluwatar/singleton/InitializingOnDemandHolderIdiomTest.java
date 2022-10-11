@@ -36,6 +36,9 @@ public class InitializingOnDemandHolderIdiomTest
    * Create a new singleton test instance using the given 'getInstance' method.
    */
   public InitializingOnDemandHolderIdiomTest() {
+      /**
+      * 方法引用作为 Supplier
+      */
     super(InitializingOnDemandHolderIdiom::getInstance);
   }
 
