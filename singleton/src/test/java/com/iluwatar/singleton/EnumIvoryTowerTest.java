@@ -35,6 +35,9 @@ public class EnumIvoryTowerTest extends SingletonTest<EnumIvoryTower> {
    * Create a new singleton test instance using the given 'getInstance' method.
    */
   public EnumIvoryTowerTest() {
+    /**
+    *使用lambda表达式，如果需要参数则为super((s)->System.out.println(s));
+    */
     super(() -> EnumIvoryTower.INSTANCE);
   }
 
