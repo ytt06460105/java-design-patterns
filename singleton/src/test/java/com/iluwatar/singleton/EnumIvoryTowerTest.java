@@ -36,7 +36,8 @@ public class EnumIvoryTowerTest extends SingletonTest<EnumIvoryTower> {
    */
   public EnumIvoryTowerTest() {
     /**
-    *使用lambda表达式，如果需要参数则为super((s)->System.out.println(s));
+    * 使用lambda表达式，如果需要参数则为super((s)->System.out.println(s));
+    * lambda表达式作为 Supplier
     */
     super(() -> EnumIvoryTower.INSTANCE);
   }
